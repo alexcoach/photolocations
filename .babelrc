@@ -1,0 +1,26 @@
+{
+  "presets": [
+    "flow",
+    "babel-preset-react-native-stage-0"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-react-jsx-source"
+      ]
+    }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "src": [
+        "./node_modules"
+      ],
+      "alias": {
+        "app": "./app",
+        "core": "./app/core",
+        "assets": "./assets"
+      },
+      "cwd": "packagejson"
+    }]
+  ]
+}

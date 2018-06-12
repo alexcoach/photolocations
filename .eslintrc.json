@@ -1,0 +1,54 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "airbnb",
+        "plugin:react/recommended"
+    ],
+    "plugins": ["react", "jsx-a11y", "import"],
+    "settings": {
+        "import/resolver": {
+            "alias": [
+                ["app", "../app"],
+                ["core", "../app/core"],
+                ["assets", "../assets"]
+            ]
+        }
+    },
+    "rules": {
+        "react/prop-types": 2,
+        "react/jsx-no-undef": [2, { "allowGlobals": true }],
+        "react/jsx-filename-extension": 0,
+        "import/no-extraneous-dependencies": 0,
+        "import/no-unresolved": [2, { "commonjs": true, "amd": true }],
+        "import/extensions": 0,
+        "import/prefer-default-export": 1,
+        "indent": [2, 4, { "SwitchCase": 1 }],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
+        "react/prefer-stateless-function": 0,
+        "react/require-default-props": 0,
+        "no-return-assign": 0,
+        "no-use-before-define": 0,
+        "guard-for-in": 2,
+        "max-len": ["error", 120],
+        "class-methods-use-this": 0,
+        "no-restricted-properties": 1,
+        "no-template-curly-in-string": 0,
+        "global-require": 0,
+        "semi": ["error", "always", { "omitLastInOneLineBlock": false }]
+    },
+    "globals": {
+        "process": true,
+        "window": true,
+        "localStorage": true,
+        "clearTimeout": true,
+        "setTimeout": true,
+        "Promise": true,
+        "describe": true,
+        "expect": true,
+        "test": true,
+        "Generator": true,
+        "fetch": true,
+        "navigator": true
+    }
+}
