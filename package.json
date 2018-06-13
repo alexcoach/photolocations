@@ -49,7 +49,8 @@
     "setupTestFrameworkScriptFile": "./enzymeSetup.js",
     "transformIgnorePatterns": [
       "node_modules/(?!react-native|native-base-shoutem-theme|native-base|react-router-native)"
-    ]
+    ],
+    "collectCoverage": true
   },
   "dependencies": {
     "axios": "^0.18.0",
