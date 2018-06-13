@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modals> renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Modals
+    dispatch={[Function]}
+    modalsQueue={
+      Array [
+        Object {
+          "content": <Styled(Text)>
+            Modal Content
+          </Styled(Text)>,
+          "id": "test",
+        },
+      ]
+    }
+    modalsQueueLength={1}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Array [
+    <Styled(ViewNB)
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <ReactNativeModal
+        animationIn="fadeIn"
+        animationInTiming={300}
+        animationOut="fadeOut"
+        animationOutTiming={300}
+        avoidKeyboard={false}
+        backdropColor="black"
+        backdropOpacity={0.3}
+        backdropTransitionInTiming={300}
+        backdropTransitionOutTiming={300}
+        hideModalContentWhileAnimating={false}
+        isVisible={false}
+        onBackButtonPress={[Function]}
+        onBackdropPress={[Function]}
+        onModalHide={[Function]}
+        onModalShow={[Function]}
+        scrollOffset={0}
+        scrollOffsetMax={0}
+        scrollTo={null}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "margin": 0,
+          }
+        }
+        supportedOrientations={
+          Array [
+            "portrait",
+            "landscape",
+          ]
+        }
+        swipeThreshold={100}
+        useNativeDriver={false}
+      >
+        <Styled(ViewNB)
+          style={
+            Object {
+              "minHeight": 100,
+              "minWidth": 300,
+            }
+          }
+        >
+          <Styled(Text)>
+            Modal Content
+          </Styled(Text)>
+        </Styled(ViewNB)>
+      </ReactNativeModal>
+    </Styled(ViewNB)>,
+  ],
+  Symbol(enzyme.__nodes__): Array [
+    Array [
+      <Styled(ViewNB)
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <ReactNativeModal
+          animationIn="fadeIn"
+          animationInTiming={300}
+          animationOut="fadeOut"
+          animationOutTiming={300}
+          avoidKeyboard={false}
+          backdropColor="black"
+          backdropOpacity={0.3}
+          backdropTransitionInTiming={300}
+          backdropTransitionOutTiming={300}
+          hideModalContentWhileAnimating={false}
+          isVisible={false}
+          onBackButtonPress={[Function]}
+          onBackdropPress={[Function]}
+          onModalHide={[Function]}
+          onModalShow={[Function]}
+          scrollOffset={0}
+          scrollOffsetMax={0}
+          scrollTo={null}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "margin": 0,
+            }
+          }
+          supportedOrientations={
+            Array [
+              "portrait",
+              "landscape",
+            ]
+          }
+          swipeThreshold={100}
+          useNativeDriver={false}
+        >
+          <Styled(ViewNB)
+            style={
+              Object {
+                "minHeight": 100,
+                "minWidth": 300,
+              }
+            }
+          >
+            <Styled(Text)>
+              Modal Content
+            </Styled(Text)>
+          </Styled(ViewNB)>
+        </ReactNativeModal>
+      </Styled(ViewNB)>,
+    ],
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+  },
+}
+`;
